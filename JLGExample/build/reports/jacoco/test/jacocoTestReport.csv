@@ -1,0 +1,9 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+JLGExample,JLGExample,Main,197,0,12,0,60,0,10,0,4,0
+JLGExample,JLGExample,ExecutedLoCLogger.new Thread() {...},43,0,2,0,11,0,3,0,2,0
+JLGExample,JLGExample,ExecutedLoCLogger.new Thread() {...},21,0,0,0,6,0,2,0,2,0
+JLGExample,JLGExample,CountVowels,73,0,6,0,14,0,7,0,4,0
+JLGExample,JLGExample,ExecutedLoCLogger,982,0,84,0,228,0,76,0,34,0
+JLGExample,JLGExample,CountToAThousand,134,0,6,0,30,0,9,0,6,0
+JLGExample,JLGExample,UnterOrdnerTest,7,0,0,0,4,0,2,0,2,0
+JLGExample,JLGExample,CountConsonants,137,0,6,0,14,0,7,0,4,0

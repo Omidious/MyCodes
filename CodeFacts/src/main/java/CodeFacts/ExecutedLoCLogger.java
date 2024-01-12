@@ -5,7 +5,6 @@ import com.sun.jdi.connect.Connector;
 import com.sun.jdi.connect.LaunchingConnector;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.*;
-
 import java.io.*;
 import java.net.URL;
 import java.util.*;
@@ -474,4 +473,3 @@ public class ExecutedLoCLogger {
     }
 
 }
-

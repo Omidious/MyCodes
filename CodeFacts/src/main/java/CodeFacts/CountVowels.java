@@ -30,4 +30,3 @@ public class CountVowels {
         this.vowels = vowels;
     }
 }
-

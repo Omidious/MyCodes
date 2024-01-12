@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CountToAThousandTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-01-12T10:49:55" hostname="LAPTOP-N2GTBKAC" time="0.025">
+<testsuite name="CountToAThousandTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-01-12T11:13:25" hostname="LAPTOP-N2GTBKAC" time="0.034">
   <properties/>
-  <testcase name="testGettersAndSetters()" classname="CountToAThousandTest" time="0.003"/>
-  <testcase name="testCountWithFibbonaci()" classname="CountToAThousandTest" time="0.02"/>
+  <testcase name="testGettersAndSetters()" classname="CountToAThousandTest" time="0.006"/>
+  <testcase name="testCountWithFibbonaci()" classname="CountToAThousandTest" time="0.026"/>
   <system-out><![CDATA[100+610=710
 710+233=943
 943+55=998

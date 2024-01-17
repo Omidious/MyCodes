@@ -31,3 +31,28 @@ jacocoTestReport {
         html.required = true
     }
 }
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+    options.compilerArgs << '-Xlint:unchecked'
+
+    // We compile with the external Java compiler spawned as process such
+    // that java-compiler-args.txt will be generated.
+    options.fork = true
+    options.forkOptions.executable="${System.properties['java.home']}/bin/javac.exe"
+
+    doLast {
+        println 'Analyzing Java with Axivion Java Analyzer!'
+        def arguments = ["-nocode", "-proceedOnError", "-loglevel", "info"]
+        def javaCompilerArgsFilename = "${project.buildDir}/tmp/compileJava/java-compiler-args.txt"
+        // new File(javaCompilerArgsFilename).text = arguments.join ("\n")
+        def command = project.property('javacPath') + " @" + javaCompilerArgsFilename + " " + arguments.join(" ")
+        println command
+        def sout = new StringBuffer()
+        def serr = new StringBuffer()
+        def process = command.execute()
+        process.consumeProcessOutput(sout, serr)
+        println "out> $sout\nerr> $serr"
+        println "For more information, see java2rfg.log"
+    }
+}

@@ -1,0 +1,13 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+CodeFacts,CodeFacts,UnterOrdnerTest,7,0,0,0,4,0,2,0,2,0
+CodeFacts,CodeFacts,CountConsonants,0,137,0,6,0,14,0,7,0,4
+CodeFacts,CodeFacts,Main,336,0,24,0,102,0,17,0,5,0
+CodeFacts,CodeFacts,ExecutedLoCLogger.new Thread() {...},21,0,0,0,6,0,2,0,2,0
+CodeFacts,CodeFacts,CountToAThousand,0,134,0,6,0,30,0,9,0,6
+CodeFacts,CodeFacts,CountVowels,3,70,0,6,1,13,1,6,1,3
+CodeFacts,CodeFacts,ExecutedLoCLogger.new Thread() {...},43,0,2,0,11,0,3,0,2,0
+CodeFacts,CodeFacts,ExecutedLoCLogger,982,0,84,0,228,0,76,0,34,0
+CodeFacts,BankAccount,Customer,0,9,0,0,0,4,0,2,0,2
+CodeFacts,BankAccount,Bank,0,23,0,0,0,8,0,4,0,4
+CodeFacts,BankAccount,Main,3,77,0,2,1,17,1,2,1,1
+CodeFacts,BankAccount,Account,0,44,0,2,0,14,0,7,0,6

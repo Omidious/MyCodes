@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CountConsonantsTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-01-17T23:21:38" hostname="LAPTOP-N2GTBKAC" time="0.012">
+  <properties/>
+  <testcase name="testCountConsonants()" classname="CountConsonantsTest" time="0.006"/>
+  <testcase name="testSetAndGetConsonants()" classname="CountConsonantsTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

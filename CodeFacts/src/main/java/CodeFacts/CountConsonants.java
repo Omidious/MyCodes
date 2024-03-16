@@ -2,10 +2,10 @@ package CodeFacts;
 
 public class CountConsonants {
 
-    private char[] consonants = {'q','w','r','t','z','p','s','d','f','g','h','j','k','l','y','x','c','v','b','n','m'};
+    int TestVariable = 2;
+    private char[] consonants = {'q','w','r','t','z','p','s','d','f','g','h','j','k','l','y','x','c','v','b','n','m','m'};
 
     public CountConsonants(){
-
     }
 
     public int countConsonants(String string){
